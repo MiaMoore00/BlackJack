@@ -1,0 +1,110 @@
+
+
+
+
+body {
+  font-family:monospace;
+  box-sizing: border-box;
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/442/624/6/kakegurui-jabami-yumeko-anime-girls-wallpaper-0fe596fda5a16452070e8347b8a76743.jpg");
+  background-size:cover;
+;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  letter-spacing: .2rem;
+
+}
+
+.scoreMap,
+table,
+th,
+td {
+  
+font-size: larger;
+  color: rgb(11, 10, 10);
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+body * {
+  box-sizing: inherit;
+}
+
+.message-box {
+  width: 900px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto 10px;
+  height: 1em;
+  font-size: 30px;
+  font-family: fantasy;
+  color: rgb(191, 41, 8);
+}
+
+
+
+.table {
+  width: 900px;
+  max-width: calc(100% - 20px);
+  border: 8px solid rgba(252, 252, 252, 0.545);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.152);
+  margin: 0 auto;
+  color: white;
+  padding: 30px;
+}
+
+.player {
+  margin: 20px;
+}
+
+.player-name {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.points {
+  font-style: italic;
+}
+
+.hand {
+  height: 120px;
+  background: rgba(40, 45, 39, 0.267);
+  border-radius: 5px;
+}
+
+.hand img {
+  height: 100%;
+  width: auto;
+  padding: 10px 0 10px 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+  font-size: 18px;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: rgb(241, 68, 5);
+  background: rgb(0, 4, 6);
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(245, 244, 244);
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.542);
+}
+
