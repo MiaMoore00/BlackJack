@@ -65,7 +65,7 @@ function reduceAce(playerPoints, playerAceCount) {
 
 
 //deal functions
-dealButton.addEventListener("click", function () {
+dealButton.addEventListener("click",  (e) => {
   for (let i = 1; i <= 4; i++) {
     if (i % 2 === 0) {
       let startCard = deck.pop();
@@ -176,7 +176,6 @@ else if (dealerPoints > 21) {
 else if (playerPoints > 21) {
   results = "Bust! Dealer Wins! ";
 }
-
 
 document.getElementById("dealer-points").innerText = dealerPoints;
 document.getElementById("player-points").innerText = playerPoints;
